@@ -1,0 +1,130 @@
+#div1{
+    background-color: #FFCD9E;
+}
+
+button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#emailaddress{
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+}
+
+body{
+    width: 1440px;
+    height: 592px;
+    flex-shrink: 0;
+    background-color: #FFCD9E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    padding: 50px;
+}
+.left {
+    width: 50%;
+}
+
+
+
+.left > h1{
+    width: 562px;
+    color: #282828;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+}
+
+.left > p{
+    display: flex;
+    width: 495px;
+    height: 81px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #484848;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+}
+
+.left > b{
+    font-size: 20px;
+}
+
+
+.right{
+    width: 50%;
+}
+
+.right img{
+    display: inline-flex;
+    height: 575px;
+    padding: 66.395px 89.61px 66.155px 91.87px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* .footer-left{
+    display: flex;
+    width: 1440px;
+    height: 298px;
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+} */
+
+footer{
+    background-color: #282828;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    color: white;
+}
+
+/* .footer-left ul{
+    list-style: none;
+    padding: 10px;
+} */
+
+.footer-left li{
+    /* margin-left: 100px; */
+    margin: 1px;
+    /* height: 20px; */
+}
+
+.footer-right{
+    color: white;
+}
+
+.footer-right p{
+    margin-right: 50px;
+}
+
